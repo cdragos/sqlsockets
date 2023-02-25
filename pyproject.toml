@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "playground"
+version = "0.1.0"
+description = ""
+authors = ["Dragos Catarahia <dragos@catarahia.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.4"
+pydantic = "^1.10.5"
+pytest = "^7.2.1"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
